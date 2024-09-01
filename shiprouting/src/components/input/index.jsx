@@ -33,7 +33,7 @@ const Valss = () => {
           <option value="solid">Solid Goods</option>
           <option value="bulk">Bulk Goods</option>
           <option value="electronic">Electronic Goods</option>
-          <option value="transportation">Transportation Goods</option>
+          <option value="transportation">Transportation Good</option>
           <option value="mega-bulk">Mega Bulk Goods</option>
           <option value="refrigerated">Refrigerated Goods</option>
           <option value="hazardous">Hazardous Goods</option>

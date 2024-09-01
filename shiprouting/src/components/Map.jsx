@@ -8,6 +8,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import styles from "./map.module.css"
 
 // Create a custom icon using emoji
 const createEmojiIcon = (emoji) => {
@@ -61,7 +62,7 @@ const MapComponent = () => {
   };
 
   return (
-    <div>
+    <div className={styles.mapContainer}>
       <MapContainer
         center={[-20, 80]} // Center in the Indian Ocean region
         zoom={4}
